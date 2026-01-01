@@ -1,5 +1,4 @@
 import { Button, Card, CardHeader, CardTitle, CardContent } from "@core-ui/ui";
-import { AiChat01Icon } from "@hugeicons/react";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
         <Card className="w-[400px]">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <AiChat01Icon className="text-primary" />
+              {/* <Home01Icon className="text-primary" /> */}
               Core-UI Design System
             </CardTitle>
           </CardHeader>
