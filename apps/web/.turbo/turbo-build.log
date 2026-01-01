@@ -1,0 +1,49 @@
+
+> web@0.1.0 build D:\core-ui\apps\web
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of D:\core-ui\pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * D:\core-ui\apps\web\package-lock.json
+
+▲ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+Error: Can't resolve 'tailwindcss' in 'D:\core-ui\packages\theme'
+    [2m[at finishWithoutResolve (D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:565:18)][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:657:14][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:718:5][0m
+    [2m[at eval (eval at create (D:\core-ui\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:718:5][0m
+    [2m[at eval (eval at create (D:\core-ui\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:718:5][0m
+    [2m[at eval (eval at create (D:\core-ui\node_modules\.pnpm\tapable@2.3.0\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at D:\core-ui\node_modules\.pnpm\enhanced-resolve@5.18.4\node_modules\enhanced-resolve\lib\Resolver.js:718:5][0m {
+  details: "resolve 'tailwindcss' in 'D:\\core-ui\\packages\\theme'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: D:\\core-ui\\packages\\theme\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    "      D:\\core-ui\\packages\\theme\\node_modules doesn't exist or is not a directory\n" +
+    "      D:\\core-ui\\packages\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in D:\\core-ui\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: D:\\core-ui\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              D:\\core-ui\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              D:\\core-ui\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        D:\\core-ui\\node_modules\\tailwindcss doesn't exist\n" +
+    "      D:\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\bin\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\package.json (relative path: ./dist/bin/node_modules;D:/core-ui/node_modules/.pnpm/next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/node_modules;D:/core-ui/node_modules/.pnpm/next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/node_modules;D:/core-ui/node_modules/.pnpm/next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules;D:/core-ui/node_modules/.pnpm/node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\bin\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\bin\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\bin\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\dist\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules\\next\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\next@16.1.1_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3\\node_modules;D:\\core-ui\\node_modules\\.pnpm\\node_modules\\tailwindcss doesn't exist"
+}

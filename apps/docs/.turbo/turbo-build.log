@@ -1,0 +1,34 @@
+
+> @core-ui/docs@0.0.0 build D:\core-ui\apps\docs
+> storybook build
+
+[1m@storybook/core v8.6.15
+[22m
+info => Cleaning outputDir: [36mstorybook-static[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m1.65 s[39m)
+info => Building preview..
+WARN No story files found for the specified pattern: [34msrc\**\*.mdx[39m
+WARN No story files found for the specified pattern: [34msrc\**\*.stories.@(js|jsx|mjs|ts|tsx)[39m
+WARN No story files found for the specified pattern: [34m..\packages\ui\src\**\*.stories.@(js|jsx|mjs|ts|tsx)[39m
+[38;2;241;97;97m=> Failed to build the preview[39m
+[31mfailed to load config from D:\core-ui\apps\docs\vite.config.ts[39m
+[38;2;241;97;97mError: Cannot find module '@vitejs/plugin-react'
+Require stack:
+- .\vite.config.ts
+- D:\core-ui\node_modules\.pnpm\vite@6.4.1_@types+node@20.19.27_jiti@2.6.1_lightningcss@1.30.2\node_modules\vite\dist\node\chunks\dep-D4NMHUTW.js[39m
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (.\vite.config.ts:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at _require.extensions.<computed> [as .ts] (file:///D:/core-ui/node_modules/.pnpm/vite@6.4.1_@types+node@20.19.27_jiti@2.6.1_lightningcss@1.30.2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:49463:16)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+(node:17456) ExperimentalWarning: CommonJS module D:\core-ui\apps\docs\vite.config.ts is loading ES Module D:\core-ui\node_modules\.pnpm\vite@6.4.1_@types+node@20.19.27_jiti@2.6.1_lightningcss@1.30.2\node_modules\vite\dist\node\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39m ELIFECYCLE  Command failed with exit code 1.
