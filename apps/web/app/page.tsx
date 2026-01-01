@@ -1,4 +1,6 @@
 import { Button, Card, CardHeader, CardTitle, CardContent } from "@core-ui/ui";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Home01Icon } from "@hugeicons/core-free-icons";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,14 +19,14 @@ export default function Home() {
         <Card className="w-[400px]">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              {/* <Home01Icon className="text-primary" /> */}
+              <HugeiconsIcon icon={Home01Icon} className="text-primary" size={24} />
               Core-UI Design System
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col gap-4">
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground text-sm leading-relaxed">
               Your personal design system is successfully initialized.
-              Built with shadcn, Vega style, and Hugeicons.
+              Built with shadcn/ui, Vega style, and Hugeicons.
             </p>
             <div className="flex gap-2">
               <Button>Get Started</Button>
